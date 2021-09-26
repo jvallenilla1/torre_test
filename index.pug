@@ -1,1 +1,48 @@
 extend base.pug
+
+block content
+    .welcome.fluid-container.pt-3.my-3.centered
+        h1 Welcome to Torre Test Page
+
+    .fluid-container.pt-3.centered
+        p You can look for persons or opportunities from here.
+
+    .fluid-container.my-5
+        .row
+            .col-md-6
+                h3.centered Persons
+                .space-vert
+                .row.justify-content-center
+                    .col-8
+                        p User search:
+                        .form-floating.mb-3 
+                            input.form-control#userSearchTA(type="text", placeholder="User ID")
+                            label(for="userSearchTA") User ID
+                        .d-grid
+                            button.btn.btn-primary(type="button") Search user
+
+                        .space-vert
+
+                        p.centered Or
+
+                        .d-grid
+                            button.btn.btn-primary(type="button") Get a list of users
+
+            .col-md-6
+                h3.centered Opportunities
+                .space-vert
+                .row.justify-content-center
+                    .col-8
+                        p Opportunity search:
+                        .form-floating.mb-3 
+                            input.form-control#userSearchTA(type="text", placeholder="Job ID")
+                            label(for="userSearchTA") Job ID
+                        .d-grid
+                            button.btn.btn-primary(type="button") Search Job
+
+                        .space-vert
+
+                        p.centered Or
+
+                        .d-grid
+                            button.btn.btn-primary(type="button") Get a list of Opportunities

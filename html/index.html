@@ -1,0 +1,79 @@
+
+<!-- file: base.pug--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Torre Test Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS load-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Load Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;family=Open+Sans:wght@300;400;700&amp;display=swap" rel="stylesheet">
+    <!-- Load Bootstrap--><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">    
+  </head>
+  <body> 
+    <div class="header"> 
+      <!-- Navbar goes here-->
+      <div class="header-menu"> <a class="menu-item title" href="index.html">Torre Test</a></div>
+    </div>
+    <div class="container">
+      <div class="welcome fluid-container pt-3 my-3 centered">
+        <h1>Welcome to Torre Test Page</h1>
+      </div>
+      <div class="fluid-container pt-3 centered">
+        <p>You can look for persons or opportunities from here.</p>
+      </div>
+      <div class="fluid-container my-5">
+        <div class="row">
+          <div class="col-md-6">
+            <h3 class="centered">Persons</h3>
+            <div class="space-vert"></div>
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <p>User search:</p>
+                <div class="form-floating mb-3"> 
+                  <input class="form-control" id="userSearchTA" type="text" placeholder="User ID">
+                  <label for="userSearchTA">User ID</label>
+                </div>
+                <div class="d-grid">
+                  <button class="btn btn-primary" type="button">Search user</button>
+                </div>
+                <div class="space-vert"></div>
+                <p class="centered">Or</p>
+                <div class="d-grid">
+                  <button class="btn btn-primary" type="button">Get a list of users</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h3 class="centered">Opportunities</h3>
+            <div class="space-vert"></div>
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <p>Opportunity search:</p>
+                <div class="form-floating mb-3"> 
+                  <input class="form-control" id="userSearchTA" type="text" placeholder="Job ID">
+                  <label for="userSearchTA">Job ID</label>
+                </div>
+                <div class="d-grid">
+                  <button class="btn btn-primary" type="button">Search Job</button>
+                </div>
+                <div class="space-vert"></div>
+                <p class="centered">Or</p>
+                <div class="d-grid">
+                  <button class="btn btn-primary" type="button">Get a list of Opportunities</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer fluid-container pt-3 bg-dark text-white centered">
+      <p>Made as a technical test by Jose Gregorio Vallenilla.</p>
+    </div>
+  </body>
+</html>
