@@ -1,14 +1,28 @@
 // file: base.pug
 
-html 
+doctype html
+html(lang="en")
     head 
         title Torre Test Page 
+        link(rel="stylesheet", href="style.css")
+        link(rel="preconnect", href="https://fonts.googleapis.com")
+        link(rel="preconnect", href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet")
 
         // CSS loader goes here
 
     body 
+        .header 
+            // Navbar goes here
+            .header-menu 
+                a.menu-item.title(href="#") Torre Test
+                a.menu-item(href="#") Home
+                a.menu-item(href="#") People
+                a.menu-item(href="#") Opportunities
+
         .container
             block content 
+            
         
         // Scripts for fonts locates here
 

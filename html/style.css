@@ -1,0 +1,65 @@
+* {
+    font-size: 14px;
+}
+
+body
+{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    vertical-align: top;
+    width: 100%;
+    line-height: 64px;
+    margin: 0%;
+    background-color: teal;
+}
+
+.header-menu {
+    vertical-align:middle;
+    margin: 0 16px;
+}
+
+.title {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.menu-item {
+    padding: 0 8px;
+    color: white;
+}
+
+.menu-item:link {
+    text-decoration: none;
+}
+
+.menu-item:visited {
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    text-decoration: none;
+}
+
+.menu-item:active {
+    text-decoration: none;
+}
+
+/* Page Content */
+
+
+
+/* Footer */
+
+.footer {
+    min-height: 48px;
+    width: fit-content;
+    margin: auto auto 16px auto;
+}
