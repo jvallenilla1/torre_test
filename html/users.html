@@ -21,37 +21,15 @@
       <div class="header-menu"> <a class="menu-item title" href="index.html">Torre Test</a></div>
     </div>
     <div class="container">
-      <div class="fluid-container pt-3 my-3 centered">
-        <h1>Welcome to Torre Test Page</h1>
+      <div class="fluid-container pt-3 my-3">
+        <h1>Users</h1>
       </div>
-      <div class="fluid-container pt-3 centered">
-        <p>You can look for persons or opportunities from here.</p>
+      <div class="fluid-container">
+        <p>Hit the button to load some users.</p>
       </div>
-      <div class="fluid-container my-5">
-        <div class="row">
-          <div class="col-md-6">
-            <h3 class="centered">Persons</h3>
-            <div class="space-vert"></div>
-            <div class="row justify-content-center">
-              <div class="col-8">
-                <div class="d-grid">
-                  <button class="btn btn-primary" id="getUsersBtn" type="button" onclick="getUsersBtn_click()">Get a list of users</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <h3 class="centered">Opportunities</h3>
-            <div class="space-vert"></div>
-            <div class="row justify-content-center">
-              <div class="col-8">
-                <div class="d-grid">
-                  <button class="btn btn-primary" id="getJobsBtn" type="button" onclick="getJobsBtn_click()">Get a list of opportunities</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="row mt-3 justify-content-between" id="usersList"></div>
+      <div class="d-grid my-3">
+        <button class="btn btn-primary" id="getJobsBtn" type="button" onclick="loadUsers()">Load users</button>
       </div>
     </div>
     <div class="footer fluid-container pt-3 bg-dark text-white centered">

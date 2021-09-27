@@ -17,6 +17,11 @@ body
     flex-direction: column;
 }
 
+img {
+    max-width: 90%;
+    max-height: 90%;
+}
+
 .header {
     vertical-align: top;
     width: 100%;
@@ -83,6 +88,23 @@ body
 
 .card-employment, .card-countries {
     font-size: 0.8rem;
+}
+
+.card-full-name {
+    font-size: 1.5rem;
+}
+
+.card-username {
+    font-weight: bold;
+}
+
+.card-verified {
+    font-size: 0.8rem;
+    color: green;
+}
+
+.card-actual-job {
+    font-weight: 300;
 }
 
 /* Page Content */

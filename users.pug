@@ -1,0 +1,15 @@
+extend base.pug
+
+block content
+    .fluid-container.pt-3.my-3
+        h1 Users
+
+    .fluid-container
+        p Hit the button to load some users.
+
+    .row.mt-3.justify-content-between#usersList
+            
+
+    .d-grid.my-3
+        button.btn.btn-primary#getJobsBtn(type="button" onclick="loadUsers()") Load users
+        
