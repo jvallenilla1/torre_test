@@ -1,0 +1,15 @@
+extend base.pug
+
+block content
+
+    .fluid-container.pt-3.my-3.centered
+        h1 Oops!
+
+    .fluid-container.pt-3.centered
+        p Your search did not return any results. So sorry!
+
+    .fluid-container.my-3
+        .row.justify-content-center 
+            .col-md-4
+                .d-grid
+                    button.btn.btn-primary#notFoundBtn(type="button" onclick="notFoundBtn_click()") Go back

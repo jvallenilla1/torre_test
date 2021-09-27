@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&amp;family=Open+Sans:wght@300;400;700&amp;display=swap" rel="stylesheet">
     <!-- Load Bootstrap--><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">    
+    <!-- JS Scrip load-->
+    <script src="app.js"> </script>
   </head>
   <body> 
     <div class="header"> 
@@ -19,7 +21,7 @@
       <div class="header-menu"> <a class="menu-item title" href="index.html">Torre Test</a></div>
     </div>
     <div class="container">
-      <div class="welcome fluid-container pt-3 my-3 centered">
+      <div class="fluid-container pt-3 my-3 centered">
         <h1>Welcome to Torre Test Page</h1>
       </div>
       <div class="fluid-container pt-3 centered">
@@ -33,17 +35,17 @@
             <div class="row justify-content-center">
               <div class="col-8">
                 <p>User search:</p>
-                <div class="form-floating mb-3"> 
+                <form class="form-floating mb-3" id="userForm"> 
                   <input class="form-control" id="userSearchTA" type="text" placeholder="User ID">
                   <label for="userSearchTA">User ID</label>
-                </div>
+                </form>
                 <div class="d-grid">
-                  <button class="btn btn-primary" type="button">Search user</button>
+                  <button class="btn btn-primary" id="searchUserBtn" type="button" onclick="searchUserBtn_click()">Search user</button>
                 </div>
                 <div class="space-vert"></div>
                 <p class="centered">Or</p>
                 <div class="d-grid">
-                  <button class="btn btn-primary" type="button">Get a list of users</button>
+                  <button class="btn btn-primary" id="getUsersBtn" type="button" onclick="getUsersBtn_click()">Get a list of users</button>
                 </div>
               </div>
             </div>
@@ -54,17 +56,17 @@
             <div class="row justify-content-center">
               <div class="col-8">
                 <p>Opportunity search:</p>
-                <div class="form-floating mb-3"> 
-                  <input class="form-control" id="userSearchTA" type="text" placeholder="Job ID">
+                <form class="form-floating mb-3" id="jobForm"> 
+                  <input class="form-control" id="jobSearchTA" type="text" placeholder="Job ID">
                   <label for="userSearchTA">Job ID</label>
-                </div>
+                </form>
                 <div class="d-grid">
-                  <button class="btn btn-primary" type="button">Search Job</button>
+                  <button class="btn btn-primary" id="searchJobBtn" type="button" onclick="searchJobBtn_click()">Search opportunity</button>
                 </div>
                 <div class="space-vert"></div>
                 <p class="centered">Or</p>
                 <div class="d-grid">
-                  <button class="btn btn-primary" type="button">Get a list of Opportunities</button>
+                  <button class="btn btn-primary" id="getJobsBtn" type="button" onclick="getJobsBtn_click()">Get a list of opportunities</button>
                 </div>
               </div>
             </div>
