@@ -56,7 +56,7 @@ async function loadUsers() {
             CreateUserCard(div, user)
         });
 
-        jobCount++;
+        peopleCount++;
     } else {
         window.location.href = "404.html";
     }
@@ -235,7 +235,7 @@ function CreateJobCard(cardList, opportunity) {
     var cardElement = document.createElement("div");
     
     // Assign a Class
-    cardElement.className = "col-md-5 my-2 mx-auto card-element d-flex align-items-center";
+    cardElement.className = "col-md-5 my-2 mx-auto card-element";
 
     // Add elements
 

@@ -1,0 +1,18 @@
+Development log:
+
+[Sept 24, 2021]
+03:00pm - 03:15pm | E-mail first check.
+06:00pm - 08:00pm | Check API Endpoints, Draw basic web design.
+
+[Sept 25, 2021]
+12:00pm - 01:00pm | Base web template writen, no more activity.
+
+[Sept 26, 2021]
+01:00pm - 02:30pm | Finished template for the web site (Menu bar, Footer and initial styling).
+03:00pm - 04:00pm | Front-end for Index finished.
+06:00pm - 09:00pm | Front-end for Opportunities list implemented.
+09:00pm - 10:20pm | Back-end for Opportunities list implemented.
+10:30pm - 11:59pm | User list implemented (Front-end and Backend)
+
+[Sept 27, 2021]
+12:00am - 01:30am | Web upload, documentation update, making sure the delivery is correct.
